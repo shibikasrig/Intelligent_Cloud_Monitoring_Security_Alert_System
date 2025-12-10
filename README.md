@@ -24,5 +24,5 @@ This project automatically monitors logs stored in an S3 bucket and sends alerts
 
  Testing
 ```bash
-echo "ERROR server crash" > sample-error.log
-aws s3 cp sample-error.log s3://your-bucket-name/
+echo "ERROR crash" > sample-error.log
+aws s3 cp sample-error.log s3://intel-monitoring-logs-551507899771/
